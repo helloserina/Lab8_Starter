@@ -1,0 +1,32 @@
+{
+  "name": "lab8_starter",
+  "version": "1.0.0",
+  "description": "1. I think number 1: Within a Github action that runs whenever code is pushed. It makes it easier to automate tests, allows code to be processed when pushed to a dev branch (not the main branch), and the user can also make edits easily. 2. Yes 3.",
+  "main": "jest-puppeteer.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "jest-puppeteer": "^6.0.0",
+    "puppeteer": "^11.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloserina/Lab8_Starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helloserina/Lab8_Starter/issues"
+  },
+  "homepage": "https://github.com/helloserina/Lab8_Starter#readme",
+  "jest": {
+    "preset": "jest-puppeteer",
+    "verbose": true
+  }
+}
